@@ -1,4 +1,4 @@
-let arr = [];
+
 let userId=0;
 
 let fname = document.getElementById("fname");
@@ -55,7 +55,7 @@ function addUser(e) {
   
 
   if(localStorage.getItem("bank")){
-    bank= JSON.parse(localStorage.getItem("bank")) 
+    let bank= JSON.parse(localStorage.getItem("bank")) 
 
     for(let itm of bank){
       if(itm.email===email.value){
@@ -71,6 +71,7 @@ function addUser(e) {
     localStorage.setItem("bank", JSON.stringify(bank))
   }
   else{
+    let bank=[]
     bank.push({ele:objBank, email:objBank.email,bankArr:[]})
     userExist.style.display="none"
     localStorage.setItem("bank", JSON.stringify(bank))
