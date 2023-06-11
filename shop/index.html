@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/right-from-bracket?f=classic&s=solid"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link href="https://css.gg/css?=" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <nav>
+        <div class="brand">
+          <a href="../index.html">MeShop</a>
+        </div>
+        <div class="nav-item">
+          <a href="../index.html">Home</a>
+          <a href="../login/index.html">Login</a>
+          <a href="../signUp/index.html">Sign-up</a>
+          <a href="../shop/index.html">Shop</a>
+          <a href="../cart/index.html">My Cart</a>
+          <a href="../profile/index.html">Profilt</a>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="leftshow">
+          <div class="profile">
+            <i
+              class="fa fa-user-circle-o"
+              style="font-size: 40px; color: rgb(111, 0, 255)"
+            ></i>
+            <div class="bx">
+              <span class="user"></span>
+              <span class="userEmail"></span>
+            </div>
+          </div>
+          <hr />
+          <div class="rate">
+            <h3>Rating</h3>
+            <input
+              type="range"
+              id="slider"
+              min="0"
+              step="1"
+              max="5"
+              id="range"
+              oninput="sliderChange(this.value)"
+            />
+
+            <div class="rangee">
+              <span>0</span>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>4</span>
+              <span>5</span>
+            </div>
+          </div>
+          <hr />
+          <h3 class="lable">Price Range</h3>
+
+          <div class="price">
+            <div>
+              <input type="checkbox" class="low" value="25" />
+              <span>$0 to $25 </span>
+            </div>
+            <div>
+              <input type="checkbox" class="medium" value="50" />
+              <span>$25 to $50 </span>
+            </div>
+            <div>
+              <input type="checkbox" class="high" value="100" />
+              <span>$50 to $100 </span>
+            </div>
+            <div>
+              <input type="checkbox" class="xhigh" value="101" />
+              <span>$100 Onwords</span>
+            </div>
+          </div>
+          <div>
+            <button class="filter">Filter</button>
+          </div>
+          <div class="lgbtn">
+            <button class="logoutbtn">
+              Log Out<i
+                id="out"
+                class="fa fa-sign-out"
+                style="font-size: 27px; color: red"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div class="rightshow">
+          <div class="search">
+            <input type="text" placeholder="Search" id="search" />
+            <!-- <i id="icon" class="fa fa-search" style="font-size: 48px; color: red"></i> -->
+          </div>
+          <div class="section">
+            <button id="all-btn" class="activeBlack">All</button>
+            <button id="mens-btn">Mens</button>
+            <button id="womens-btn">Womens</button>
+            <button id="Jewellery-btn">Jewellery</button>
+            <button id="ele-btn">Electronics</button>
+          </div>
+
+          <div class="items">
+            <!-- <div class="item1">
+              <div class="img">  
+                <img
+                  src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                  alt="item"
+                />
+              </div>
+              <p>SUSHANT KADAM</p>
+              <p>kadamagar namagar</p>
+              <p><b>$100</b></p>
+              <p>Rating:3</p>
+         
+              <button id="cart-btn">Add to Cart</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

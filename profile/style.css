@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: gray;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+    height: 3rem;
+    align-items: center;
+    font-size: large;
+    text-decoration: none;
+
+}
+
+.brand{
+    margin-left: 0.5rem;
+    font-size: large;
+}
+.nav-item{
+    margin: 0.3rem ;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    position: relative;
+}
+.brand> a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-size: 35px;
+}
+
+.nav-item>a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container>h1{
+    text-align: center;
+
+}
+.container>input{
+    margin: 0.5rem;
+    padding: 0.8rem;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#change-btn, #save-btn, #logout-btn{
+    margin: 0.5rem;
+    width: 150px;
+    background-color: black;
+    color: white;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+#change-btn:hover, #save-btn:hover, #logout-btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+.old {
+    color: red;
+    margin-left: 0.5rem;
+}
+.new{
+    color: red;
+    margin-left: 0.5rem;
+    
+}
+
+.suc{
+    color: green;
+    margin-left: 0.5rem;
+}
+
+.us{
+    color: green;
+    margin-left: 0.5rem;
+}

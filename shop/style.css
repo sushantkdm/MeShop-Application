@@ -1,0 +1,295 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  overflow-x: hidden;
+  background-color: gray;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+
+  height: 6%;
+  width: 100%;
+  align-items: center;
+  font-size: large;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+
+.brand {
+  margin-left: 0.5rem;
+  font-size: large;
+}
+.nav-item {
+  margin: 0.3rem;
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  position: relative;
+}
+.brand > a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  font-size: 35px;
+}
+
+.nav-item > a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
+.container {
+  height: 94%;
+  display: flex;
+  width: 100vw;
+  position: relative;
+}
+.leftshow {
+  padding: 0.3rem;
+  background-color: rgba(18, 43, 4, 0.897);
+  /* background-color: rgba(131, 0, 0, 0.897); */
+  color: white;
+  width: 20%;
+
+  /* height:100%; */
+  height: 100%;
+  position: fixed;
+  /* margin: 0em; */
+  /* overflow-y: auto; */
+  /* position: fixed; */
+}
+.section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .leftshow>input{
+    display: flex; 
+     flex-direction: column;
+} */
+
+.rightshow {
+  width: 78%;
+  margin-left: 21%;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+}
+#search {
+  width: 94%;
+  margin: 0.5rem;
+  display: block;
+  margin-right: 10rem;
+  padding: 1rem;
+  outline: none;
+  border-radius: 5rem;
+  font-size: large;
+  border: none;
+  padding-left: 1.5rem;
+}
+.section > button {
+  padding: 1rem 0;
+  width: 20%;
+  margin: 0.4rem;
+  font-size: medium;
+}
+
+/* ===================== */
+.items {
+  display: flex;
+  width: 98%;
+  height: 100%;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+.item1 {
+  border: 1px solid black;
+  width: 230px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+/* ======================== */
+
+.img > img {
+  /* padding: 0.3rem; */
+
+  width: 80%;
+  height: 200px;
+  /* margin-left: auto;
+    margin-right: auto; */
+}
+.img {
+  /* justify-content: center; */
+  width: 80%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cart-btn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1.3rem 0;
+  font-size: large;
+}
+.item1 > p {
+  margin-left: 0.3rem;
+  padding: 0.1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+/* #all-btn{
+    background-color: black;
+    color: white;
+} */
+
+.activeBlack {
+  background-color: black;
+  color: white;
+}
+
+.lable{
+  color: #ff9f1a;
+  margin-left: 1rem;
+  margin-top: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.price{
+  display: flex ;
+  flex-direction: column;
+}
+.price>div{
+  margin: 0.5rem;
+  margin-left: 2rem;
+
+}
+
+.filter{
+  background-color: black;
+  color: #ff9f1a;
+  padding: 0.7rem;
+  border-radius: 50%;
+  width: 90%;
+  font-size: large;
+  margin-top: 0.5rem;
+}
+
+.filter:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+
+.rangee{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 85%;
+  margin-bottom: 1rem;
+}
+
+.rate{
+  margin-top: 5%;
+
+}
+
+.rate>input{
+  width: 85%;
+  margin-left: 1rem;
+}
+
+.rate>h3{
+  color: #ff9f1a;
+  margin-left: 1rem;
+  margin-top: 2.5rem;
+}
+
+hr{
+ color: #ff9f1a;
+
+}
+.lgbtn{
+  position: relative;
+}
+
+.logoutbtn{
+  /* background-color:#1B1464; */
+  background-color: #ff9f1a;
+  padding: 0.15rem;
+  margin: 1rem;
+  width: 15%;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0.2rem;
+  margin-left: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
+
+
+  /* display: flex; */
+  font-size: medium;
+ 
+ 
+}
+
+
+#out{
+ 
+  margin-left: 0.5rem;
+}
+
+#pro{
+  color:#1B1464;
+ 
+}
+.profile{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 25%;
+  margin-left: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+.user{
+  margin-left: 0.4rem;
+  
+}
+.userEmail{
+  /* font-size: small; */
+  margin-left: 0.4rem;
+  font-weight: lighter;
+  font-size: small;
+
+}
+
+.bx{
+  display: flex;
+  flex-direction: column;
+}
+
+

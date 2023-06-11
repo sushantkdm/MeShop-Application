@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color:#d1d8e0;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    
+    height: 3rem;
+    align-items: center;
+
+
+}
+.brand> a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-size: 35px;
+}
+
+.nav-item>a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    
+}
+
+.brand{
+    margin-left: 0.5rem;
+    font-size: large;
+}
+.nav-item{
+    margin: 0.3rem ;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+
+#login{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    margin: 0.3rem;
+    font-size: large;
+    cursor: pointer;
+   
+}
+
+#signup{
+    padding: 0.5rem 0.5rem;
+    margin: 0.3rem;
+    font-size: large;
+    cursor: pointer;
+}
+#signup:hover{
+    background-color:#341f97;
+    color: white;
+}
+#login:hover{
+    background-color:#341f97;
+    color: white;
+}
+
+.container{
+    display: flex;
+    position: relative;
+
+}
+.left{
+    width: 25%;
+    position: absolute;
+    margin-top: 5rem;
+    left: 7%;
+
+}
+.rigth{
+    width: 68%;
+    position: absolute;
+    right: 0;
+
+}
+
+.left>p{
+    color: #1B1464;
+}

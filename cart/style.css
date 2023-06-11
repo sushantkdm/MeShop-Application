@@ -1,0 +1,310 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: gray;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 3rem;
+    align-items: center;
+    font-size: large;
+    text-decoration: none;
+
+}
+.brand> a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-size: 35px;
+}
+
+.nav-item>a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    
+}
+.brand{
+    margin-left: 0.5rem;
+    font-size: large;
+}
+.nav-item{
+    margin: 0.3rem ;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    position: relative;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: gray;
+}
+
+
+
+.brand> a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-size: 35px;
+}
+
+.nav-item>a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    
+}
+.brand{
+    margin-left: 0.5rem;
+    font-size: large;
+}
+.nav-item{
+    margin: 0.3rem ;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.items{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: space-evenly;    
+    flex-flow: row wrap;
+    padding: 1rem 0;
+    gap: 1rem;
+   
+    
+}
+.item1{
+    border: 1px solid black;
+    width: 230px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+/* ======================== */
+
+.img>img{
+    /* padding: 0.3rem; */
+
+    width: 80%;
+    height: 200px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+}
+.img{
+    /* justify-content: center; */
+    width: 80%;
+    height: 200px;
+     margin-left: auto; 
+    margin-right: auto; 
+}
+.cart-btn{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1.3rem 0;
+}
+.item1>p{
+    margin-left: 0.3rem;
+    padding: 0.1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+/* #all-btn{
+    background-color: black;
+    color: white;
+} */
+
+
+.activeBlack{
+    background-color: black;
+    color: white;
+}
+
+/* ======================== */
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.maincont{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    column-gap: 30px;
+    
+}
+.products{
+    /* border: 1px solid black; */
+    overflow: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 80vh;
+}
+
+
+.item {
+    border: 1px solid black;
+    width: 230px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.item img {
+    width: 100%;
+    height: 250px;
+}
+
+.item .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item .info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.item .card-title{
+    font-size: 1.2rem;
+}
+
+.item button {
+    width: 100%;
+    border-radius: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.item .colors {
+    display: flex;
+ 
+}
+
+.item .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+#addBtn{
+    width: 100%;
+    margin: 0;
+}
+
+.checkout{
+    width: 30%;
+    padding: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   /* position: sticky;
+   top: 20%;
+   margin-left: 10%;
+   margin-right: 2%;
+   z-index: -2; */
+}
+
+.checkoutlist{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    width: 80%;
+}
+
+.checkoutlist>.row-ele{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+    padding: 4px;
+}
+.checkoutlist>.total{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.checkout-btn{
+    background-color: white;
+    color: black;
+   
+    
+}
+.checkout-btn-cont{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    margin-top: 3rem;
+}
+
+#carth1{
+    margin-top: 10%;
+    margin-top: 0.2rem;
+    color: #30336b;
+}
+
+.cart-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.checkout-btn{
+    background-color:#ff9f1a;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    outline: none;
+    border:1px solid rgb(164, 216, 21);
+}
+
+.checkout-btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.checkoutlist>h2{
+    color:#ff9f1a ;
+}
